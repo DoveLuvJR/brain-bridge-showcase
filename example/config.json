@@ -1,0 +1,14 @@
+{
+  "_comment": "Example config. Paths are relative to this file. 'python -m brainbridge demo' fills ./workspace with fabricated data. Set digest_remote to a git remote to turn on the scoped auto-push.",
+  "vault": "workspace/vault",
+  "sources": ["workspace/repos"],
+  "transcripts": "workspace/sessions",
+  "state_dir": "workspace/.brain",
+  "digest_out": "workspace/digest-out",
+  "digest_remote": "",
+  "aliases": {
+    "project-a": "Project A",
+    "project-b": "Project B",
+    "project-c": "Project C"
+  }
+}

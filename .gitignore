@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+# the synthetic demo workspace is generated, never committed
+example/workspace/
+# drafts for the owner to place elsewhere; never part of the public repo
+showcase-drafts/
